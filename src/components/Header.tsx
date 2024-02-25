@@ -14,7 +14,7 @@ export function Header() {
 
     return (
         <header>
-            <HashLink to="/#" className="link">
+            <HashLink to="/astrolog-yanina/#" className="link">
                 <h2>
                     <span>
                         <FontAwesomeIcon icon={faMoon} className="moon" />
@@ -24,8 +24,8 @@ export function Header() {
             </HashLink>
             <nav ref={navRef}>
                 <ul className="nav-menu">
-                    <li><HashLink to="/#information" className="link" onClick={showNavbar}>Обо мне</HashLink></li>
-                    <li><HashLink to="/#services" className="link" onClick={showNavbar}>Услуги и цены</HashLink></li>
+                    <li><HashLink to="/astrolog-yanina/#information" className="link" onClick={showNavbar}>Обо мне</HashLink></li>
+                    <li><HashLink to="/astrolog-yanina/#services" className="link" onClick={showNavbar}>Услуги и цены</HashLink></li>
                     <li className="close"><FontAwesomeIcon icon={faTimes} onClick={showNavbar}/></li>
                 </ul>
             </nav>
