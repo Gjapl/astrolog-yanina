@@ -62,6 +62,10 @@ header .nav-menu li {
   transition: .3s;
 }
 
+header .link {
+  color: #000;
+}
+
 header .link:visited {
   color: #000;
 }
