@@ -185,7 +185,7 @@ main .sun:hover {
 }
 
 .info .main-info {
-  font-size: 1.2rem;
+  font-size: 1rem;
 
   margin-top: 7rem;
   text-align: justify;
@@ -422,6 +422,14 @@ footer .footer-info {
 
   header .nav-open-btn {
     font-size: 5rem;
+  }
+
+  .info .main-info {
+    font-size: 1.2rem;
+  }
+
+  .info img {
+    height: 40vh;
   }
 }
 
