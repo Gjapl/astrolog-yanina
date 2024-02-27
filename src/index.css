@@ -185,11 +185,15 @@ main .sun:hover {
 }
 
 .info .main-info {
-  font-size: 1rem;
+  font-size: 1.25rem;
 
   margin-top: 3rem;
   text-align: justify;
   text-justify: inter-word;
+}
+
+.info .main-info .info-item {
+  margin-bottom: 2rem;
 }
 
 .info img {
@@ -408,6 +412,10 @@ footer .footer-info {
 
   .info img {
     height: 40vh;
+  }
+
+  .info .main-info .info-item {
+    font-size: .8rem;
   }
 
   footer .link {
