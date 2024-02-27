@@ -366,6 +366,10 @@ footer .footer-info {
   header .responsive_nav .close:hover {
     color: #fff;
   }
+
+  .info img {
+    height: 55vh;
+  }
 }
 
 @media (max-width: 930px) {
@@ -393,7 +397,7 @@ footer .footer-info {
   }
 
   .info img {
-    height: 50vh;
+    height: 45vh;
   }
 
   header nav {
@@ -411,11 +415,11 @@ footer .footer-info {
   }
 
   .info img {
-    height: 35vh;
+    height: 33vh;
   }
 
   .info .main-info .info-item {
-    font-size: .95rem;
+    font-size: 1rem;
   }
 
   footer .link {
@@ -436,12 +440,12 @@ footer .footer-info {
     font-size: 5rem;
   }
 
-  .info .main-info {
-    font-size: 1rem;
+  .info img {
+    height: 35vh;
   }
 
-  .info img {
-    height: 40vh;
+  .info .main-info {
+    font-size: 1rem;
   }
 }
 
